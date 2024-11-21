@@ -40,7 +40,7 @@ class RedisClient {
    * Creates a new key in redis with a specific TTL
    * @key {string} key to be saved in redis
    * @value {string} value to be asigned to key
-   * @duration {number} TTL of key
+   * @duration {number} TTL of keyy
    * @return {undefined}  No return
    */
   async set(key, value, duration) {
